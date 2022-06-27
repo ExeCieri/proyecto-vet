@@ -44,16 +44,17 @@ h1{
 }
 
 main{
-    background-image:url(../img/perro9.jpg);
-    background-repeat: no-repeat;
+    /* background-image:url(../img/perro9.jpg);
+    background-repeat: no-repeat; */
     /* background-size: 500px; */
     /* background-position: center; */
-    background-size: cover;
+    /* background-size: cover; */
     /* margin-top: 200px; */
     padding: 80px; 
-    color: white; 
+    color: black; 
     font-weight: 600; 
     font-size: 1rem;
+    background:linear-gradient(red, white);
     
     
 }
@@ -75,6 +76,7 @@ footer{
     display: flex;
     justify-content: space-around;
 }
+
 /* -----------grid inicio------------ */
 @media (min-width: 1024px){
 .grid-prueba {
@@ -105,6 +107,14 @@ background-color: darkgrey;}
     justify-content: space-between;
     padding: 10px;
     
+}
+.video{
+    transform: translate(200px);
+}
+.animacion{ transition-duration: 600ms; 
+    transition-delay: 1s;
+    transform:scale();
+
 }
 }
 
