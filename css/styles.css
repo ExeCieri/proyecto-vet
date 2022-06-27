@@ -1,0 +1,127 @@
+
+*{margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+
+   header{
+       background-color: dimgray;
+       color: white;
+
+       display: flex;
+       flex-direction: column;
+       justify-content: space-around;
+       align-items: center;
+    
+       
+   }
+
+   header nav {
+       width: 40%;
+   }
+   
+   
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    
+    
+  
+}
+h1{
+    font-style:italic ;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+main{
+    background-image:url(../img/perro9.jpg);
+    background-repeat: no-repeat;
+    /* background-size: 500px; */
+    /* background-position: center; */
+    background-size: cover;
+    /* margin-top: 200px; */
+    padding: 80px; 
+    color: white; 
+    font-weight: 600; 
+    font-size: 1rem;
+    
+    
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+.anexo{background-color: darkgray;}
+
+.titulo1{  background-color: darkgray;
+    color: black;
+    
+}
+.logos{
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+/* -----------grid inicio------------ */
+@media (min-width: 1024px){
+.grid-prueba {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: 15vh repeat(2.50vh) 10vh ;
+
+grid-template-areas:
+    "header header"
+    "cuerpo aside"
+    "cuerpo aside"
+    "footer footer"
+    
+}
+
+
+.encabezado {grid-area: header;}
+
+.vet {grid-area: cuerpo;}
+
+.anexo {grid-area: aside;
+background-color: darkgrey;}
+
+.pie{grid-area: footer;}
+
+.encabezado{
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+}
+
+/* ------------------------galeria---------------- */
+@media (min-width: 1024px) {
+.prueba{
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    grid-template-rows: 15vh repeat(2.50vh) 10vh;
+
+    grid-template-areas: 
+    "header header"
+    "siveriano ventana2"
+    "siveriano ventana2"
+    "footer footer"  
+}
+
+.siveriano{grid-area: siveriano;}
+.labrador{grid-area: ventana2;}
+}
