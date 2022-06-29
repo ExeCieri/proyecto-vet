@@ -76,6 +76,8 @@ footer{
     display: flex;
     justify-content: space-around;
 }
+.container-md{ background-color: aqua;}
+.container-fluid{background-color: white;}
 
 /* -----------grid inicio------------ */
 @media (min-width: 1024px){
