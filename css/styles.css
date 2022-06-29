@@ -76,8 +76,6 @@ footer{
     display: flex;
     justify-content: space-around;
 }
-.container-md{ background-color: aqua;}
-.container-fluid{background-color: white;}
 
 /* -----------grid inicio------------ */
 @media (min-width: 1024px){
@@ -117,7 +115,7 @@ background-color: darkgrey;}
 }
 
 /* ------------------------galeria---------------- */
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
 .prueba{
     display: grid;
     grid-template-columns: 50% 50% ;
@@ -132,4 +130,4 @@ background-color: darkgrey;}
 
 .siveriano{grid-area: siveriano;}
 .labrador{grid-area: ventana2;}
-}
+} */
