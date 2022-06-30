@@ -78,7 +78,7 @@ footer{
 }
 
 /* -----------grid inicio------------ */
-@media (min-width: 1024px){
+/* @media (min-width: 1024px){
 .grid-prueba {
     display: grid;
     grid-template-columns: 75% 25%;
@@ -90,12 +90,12 @@ grid-template-areas:
     "cuerpo aside"
     "footer footer"
     
-}
+} */
 
 
-.encabezado {grid-area: header;}
+/* .encabezado {grid-area: header;}
 
-.vet {grid-area: cuerpo;}
+.vet {grid-area: cuerpo;} */
 
 .anexo {grid-area: aside;
 background-color: darkgrey;}
@@ -113,6 +113,12 @@ background-color: darkgrey;}
 }
 
 }
+/* .carousel-control-prev{background-color: red;} */
+/* .carousel-control-next{background-color: black;} */
+.carousel-control-next-icon{background-color: black;}
+.carousel-control-prev-icon{background-color: black;}
+.carousel-indicators{background-color: red;}
+
 
 /* ------------------------galeria---------------- */
 /* @media (min-width: 1024px) {
