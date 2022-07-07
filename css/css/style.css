@@ -1,0 +1,36 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: red;
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+ul li {
+  display: inline-block;
+}
+ul :link {
+  text-decoration: none;
+}
+
+.tarjeta {
+  width: 200px;
+  height: 200px;
+}
+.tarjeta__imagen {
+  width: 100%;
+}
+.tarjeta__tittulo {
+  font-size: 2rem;
+}
+.tarjeta__texto {
+  font-size: 1rem;
+}
+
+/*# sourceMappingURL=style.css.map */
