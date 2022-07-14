@@ -1,12 +1,21 @@
+
 * {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header {
   background-color: red;
   color: white;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 40%;
 }
 
 ul {
@@ -19,18 +28,39 @@ ul :link {
   text-decoration: none;
 }
 
-.tarjeta {
-  width: 200px;
-  height: 200px;
-}
-.tarjeta__imagen {
-  width: 100%;
-}
-.tarjeta__tittulo {
-  font-size: 2rem;
-}
-.tarjeta__texto {
+main {
+  color: black;
+  font-weight: 600;
   font-size: 1rem;
+  background: linear-gradient(red, white);
+}
+
+.boton, .botonverde, .botonrojo {
+  background-color: blueviolet;
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+.boton:hover, .botonverde:hover, .botonrojo:hover {
+  filter: opacity(85%);
+}
+
+.botonrojo {
+  background-color: red;
+  color: black;
+}
+
+.botonverde {
+  background-color: green;
+  color: rgb(255, 255, 255);
+}
+
+.card {
+  display: flex;
+  text-align: center;
+  padding: 20px;
+  border-radius: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */

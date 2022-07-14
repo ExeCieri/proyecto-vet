@@ -1,0 +1,16 @@
+@mixin fontzise ($size, $weight){
+    font-size: $size;
+    font-weight: $weight; 
+}
+.letrachica{
+    @include fontzise(1rem, 100 );
+
+}
+.letramedia{
+    @include fontzise(2rem, 400 );
+
+}
+.letragrande{ 
+    @include fontzise(3rem, 700 );
+
+}

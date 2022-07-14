@@ -1,6 +1,29 @@
-.btn{padding: 10px 20px;
-border: color-principal 2px;
-color: color-principal;
-&:hover{background-color: color-secundario;
-color: black;}
+// .btn{padding: 10px 20px;
+// border: color-principal 2px;
+// color: color-principal;
+// &:hover{background-color: color-secundario;
+// color: black;}
+// }
+
+.boton{
+    background-color: blueviolet;
+    text-align: center;
+    color: white;
+    border-radius: 20px;
+    border: 2px solid black;
+
+    &:hover{filter: opacity(85%);}
+}
+
+.botonrojo{
+    @extend .boton;
+    background-color: red;
+    color: black;
+
+
+}
+.botonverde{
+    @extend .boton;
+    background-color: green;
+    color: rgb(255, 255, 255);
 }
