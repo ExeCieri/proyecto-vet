@@ -12,5 +12,6 @@
 }
 .letragrande{ 
     @include fontzise(3rem, 700 );
+    background-color: gray;
 
 }

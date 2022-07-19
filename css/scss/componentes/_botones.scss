@@ -1,10 +1,3 @@
-// .btn{padding: 10px 20px;
-// border: color-principal 2px;
-// color: color-principal;
-// &:hover{background-color: color-secundario;
-// color: black;}
-// }
-
 .boton{
     background-color: blueviolet;
     text-align: center;
@@ -25,5 +18,16 @@
 .botonverde{
     @extend .boton;
     background-color: green;
-    color: rgb(255, 255, 255);
+    color: black;
 }
+
+.botonaqua{
+    @extend .boton;
+    background-color: aqua;
+    color: black;
+}
+.carousel-control-next-icon{background-color: black;}
+.carousel-control-prev-icon{background-color: black;}
+.carousel-control-next{background-color: black;}
+.carousel-control-prev{background-color: black;}
+

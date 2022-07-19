@@ -1,6 +1,7 @@
 footer{display: flex;
     justify-content: space-around;
     width: 100%;
+    padding: 10px;
     background-color: black;
     color: white;
 }
@@ -8,5 +9,5 @@ footer{display: flex;
 .logos{
     font-size: 2rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }

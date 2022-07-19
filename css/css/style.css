@@ -1,4 +1,3 @@
-
 * {
   margin: 0%;
   padding: 0%;
@@ -6,12 +5,7 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-header {
-  background-color: red;
-  color: white;
-}
-
-.navbar-nav {
+.encabezado {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -35,14 +29,18 @@ main {
   background: linear-gradient(red, white);
 }
 
-.boton, .botonverde, .botonrojo {
+p::selection {
+  background-color: green;
+}
+
+.boton, .botonaqua, .botonverde, .botonrojo {
   background-color: blueviolet;
   text-align: center;
   color: white;
   border-radius: 20px;
   border: 2px solid black;
 }
-.boton:hover, .botonverde:hover, .botonrojo:hover {
+.boton:hover, .botonaqua:hover, .botonverde:hover, .botonrojo:hover {
   filter: opacity(85%);
 }
 
@@ -53,7 +51,87 @@ main {
 
 .botonverde {
   background-color: green;
-  color: rgb(255, 255, 255);
+  color: black;
+}
+
+.botonaqua {
+  background-color: aqua;
+  color: black;
+}
+
+.carousel-control-next-icon {
+  background-color: black;
+}
+
+.carousel-control-prev-icon {
+  background-color: black;
+}
+
+.carousel-control-next {
+  background-color: black;
+}
+
+.carousel-control-prev {
+  background-color: black;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+
+.logos {
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+@media screen and (min-width: 804px) {
+  .grilla {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: "img1 img2" "img3 img4" "img3 img5" "img6 .";
+  }
+}
+@media (min-width: 1024px) {
+  .grilla {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "img3 img2 img5" "img3 img4 img6" "img3 . img1";
+  }
+}
+.imagen1 {
+  grid-area: img1;
+}
+
+.imagen2 {
+  grid-area: img2;
+}
+
+.imagen3 {
+  grid-area: img3;
+}
+
+.imagen4 {
+  grid-area: img4;
+}
+
+.imagen5 {
+  grid-area: img5;
+}
+
+.imagen6 {
+  grid-area: img6;
+}
+
+.d-block w-100 {
+  padding: 10px;
+  object-fit: contain;
 }
 
 .card {
@@ -61,6 +139,28 @@ main {
   text-align: center;
   padding: 20px;
   border-radius: 20px;
+  justify-content: space-around;
+}
+
+.titulo1 {
+  background-color: darkgray;
+  color: black;
+}
+
+.letrachica {
+  font-size: 1rem;
+  font-weight: 100;
+}
+
+.letramedia {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.letragrande {
+  font-size: 3rem;
+  font-weight: 700;
+  background-color: gray;
 }
 
 /*# sourceMappingURL=style.css.map */
