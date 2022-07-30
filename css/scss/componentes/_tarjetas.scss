@@ -1,13 +1,8 @@
-// .tarjeta{width: 200px;
-//     height: 200px;
-
-//     &__imagen{width: 100%;}
-//     &__tittulo{font-size: 2rem;}
-//     &__texto{font-size: 1rem;}
-// }
 .card{display: flex;
 text-align: center;
 padding: 20px;
 border-radius: 20px;
 justify-content: space-around;
-background-color:grayscale($color: #b8bfc17d);}
+background-color:grayscale($color: #b8bfc17d);
+
+}

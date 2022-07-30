@@ -5,11 +5,11 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.navbar navbar-expand-md bg-light {
+.navbar-nav {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  width: 40%;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
 }
 
 ul {
@@ -168,6 +168,7 @@ footer {
 .titulo1 {
   background-color: darkgray;
   color: black;
+  text-align: center;
 }
 
 .letrachica {
@@ -184,6 +185,7 @@ footer {
   font-size: 3rem;
   font-weight: 700;
   background-color: gray;
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */
