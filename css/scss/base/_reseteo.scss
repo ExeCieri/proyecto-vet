@@ -3,7 +3,7 @@
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
     
-    .encabezado{
+   .navbar navbar-expand-md bg-light{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -26,4 +26,9 @@ main{color: black;
     
     
     p::selection {background-color: green;}
+
+    .logo1{
+        width: 150px;
+        height: 20vh;
+    }
     

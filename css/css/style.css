@@ -5,7 +5,7 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.encabezado {
+.navbar navbar-expand-md bg-light {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -31,6 +31,11 @@ main {
 
 p::selection {
   background-color: green;
+}
+
+.logo1 {
+  width: 150px;
+  height: 20vh;
 }
 
 .boton, .botonaqua, .botonverde, .botonrojo {
@@ -75,6 +80,22 @@ p::selection {
   background-color: black;
 }
 
+.navbar-toggler {
+  background-color: darkgray;
+}
+
+.enviar {
+  background-color: darkgray;
+}
+
+.reset {
+  background-color: darkgray;
+}
+
+.video {
+  transform: translate(50px);
+}
+
 footer {
   display: flex;
   justify-content: space-around;
@@ -88,6 +109,7 @@ footer {
   font-size: 2rem;
   display: flex;
   justify-content: space-evenly;
+  width: 100%;
 }
 
 @media screen and (min-width: 804px) {
@@ -140,6 +162,7 @@ footer {
   padding: 20px;
   border-radius: 20px;
   justify-content: space-around;
+  background-color: rgba(189, 189, 189, 0.4901960784);
 }
 
 .titulo1 {
